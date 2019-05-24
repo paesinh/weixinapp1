@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- This is our View -->
+  <view> Http Receive: {{response}} </view>
+  <button bindtap="httpRequest"> http test </button>
+</view>
