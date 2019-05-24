@@ -9,7 +9,7 @@ Page({
   httpRequest: function (e) { //对应：<button bindtap="httpRequest"> http test </button>的button点击
     var that = this
     wx.request({
-      url: 'https://www.paesinh.club/info.php', //仅为示例，要根据你实际的接口地址   
+      url: 'https://www.paesinh.club/weixinapptest.php', //仅为示例，要根据你实际的接口地址   
       data: {
         x: 'bai',
         y: 'bai'
